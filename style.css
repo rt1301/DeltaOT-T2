@@ -20,6 +20,7 @@ div.navbar
     flex-direction: column;
     justify-content: space-around;
     height: 80vh;
+    margin-right: 50px;
 }
 .form-group
 {
