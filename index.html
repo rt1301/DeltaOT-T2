@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphing Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Graph Calculator</h1>
+    <h2>Equation: <span id="equation"></span></h3>
+<div class="container">
+    <div class="navbar">
+        <div class="form-group">
+            <label for="Algebra">Algebraic Expression:</label>
+            <input id="algebra" type="text">
+            <button id="algbBtn">View Graph</button>
+        </div>
+        <div class="form-group">
+            <label for="Trigo">Trigonometric Expression</label>
+            <div class="functions">
+                <button id="sin">SinX</button>
+                <button id="cos">CosX</button>
+                <button id="tan">Tanx</button>
+            </div>
+        </div>
+    </div>
+    <canvas id="graph"></canvas>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
